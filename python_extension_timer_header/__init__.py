@@ -5,7 +5,7 @@ from tracemalloc import start, take_snapshot, Snapshot
 
 from azure.functions import AppExtensionBase, Context, HttpResponse
 
-class TimerExtension(AppExtensionBase):
+class PythonExtensionTimerHeader(AppExtensionBase):
     """A Python worker extension to record elapsed time in a function invocation
     """
 
